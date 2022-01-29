@@ -1,0 +1,174 @@
+.main{
+    background-image: none;
+    display: inline-flex;
+    justify-content: center;
+    background-color: rgb(236, 236, 236);
+}
+.sction1{
+    width: 80%;
+    height: calc(100vh  - 180px);
+     margin-top: 115px;
+     display: inline-flex;
+     justify-content: space-between;
+     background-color: rgb(255, 255, 255);
+     border-radius: 5px;
+     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.253);
+     padding: 20px;
+     transition: .5s;
+     
+}
+.sction1:hover{
+    transition: .5;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.342);
+}
+
+.sction1child1{
+    height: 100%;
+    width: 45%;
+    background-color: burlywood;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: radial-gradient(rgb(255, 255, 255), rgb(218, 218, 218));
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.24);
+    border-radius: 5px;
+    transition: .5s;
+}
+.sction1child1:hover{
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.349);
+    transition: .5s;
+}
+.sction1child1:hover img{
+    transition: .9s;
+     height: 70%;
+}
+.sction1child1 img{
+    transition: .9s;
+    height: 65%;
+}
+
+.sction1child2{
+    width: 52%;
+
+}
+
+.sction1child2 h1{
+    font: 24px sans-serif;
+    margin-top: 10px;
+    border-bottom: 1px solid tomato;
+    padding-bottom: 10px;
+}
+
+.desc p{
+    margin-top: 20px;
+    margin-right: 5%;
+    font: 13px sans-serif;
+    text-align: justify;
+    color: rgb(156, 156, 156);
+}
+.desc2{
+    margin-top: 20px;
+    border:1px solid tomato;
+    border-radius: 5px;
+    padding: 20px; 
+}
+.part1{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid tomato;
+    font: 1em sans-serif;
+
+}
+
+.part2{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 0px;
+    padding-top: 20px;
+    font: 1em sans-serif;
+
+}
+.priceandcart{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding: 20px;
+    align-items: center;
+    border-bottom: 1px solid tomato;
+
+}
+.price{
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    font-family: sans-serif;
+}
+#dprice{
+    color: tomato;
+}
+#cprice{
+    font-size: 16px;
+    text-decoration:line-through;
+    color: rgb(148, 148, 148);
+}
+#descount{
+    font-size: 16px;
+    color: rgb(102, 102, 102);
+}
+
+.cart a{
+    font: 1em sans-serif;
+    text-decoration: none;
+    padding: 10px 20px 10px 20px;
+    color: rgb(255, 255, 255);
+    background-color: tomato;
+    border-radius: 5px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.178);
+    transition: .5s;
+}
+.cart a:hover{
+     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.295);
+    transition: .5s;
+    margin-right: 5px;
+    
+}
+.buy{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.buy a{
+    font: 1em sans-serif;
+    text-decoration: none;
+    padding: 10px 30px 10px 30px;
+    color: rgb(255, 255, 255);
+    background-color: tomato;
+    border-radius: 5px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.178);
+    transition: .4s;
+}
+.buy a:hover{
+    font: 1em sans-serif;
+    text-decoration: none;
+    padding: 10px 34px 10px 34px;
+    color: rgb(255, 255, 255);
+    background-color: tomato;
+    border-radius: 5px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.315);
+    transition: .4s;
+}
+
+.section1{
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.section1 h1{
+    margin-bottom: 20px;
+    
+}

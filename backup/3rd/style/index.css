@@ -1,0 +1,537 @@
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Caveat&family=Concert+One&family=Courgette&family=Indie+Flower&family=Island+Moments&family=Permanent+Marker&family=Vujahday+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Asap&display=swap");
+/* font-family: 'Architects Daughter', cursive;
+font-family: 'Caveat', cursive;
+font-family: 'Concert One', cursive;
+font-family: 'Courgette', cursive;
+font-family: 'Indie Flower', cursive;
+font-family: 'Island Moments', cursive;
+font-family: 'Permanent Marker', cursive;
+font-family: 'Vujahday Script', cursive; */
+
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.main {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../images/bimg/webp/bg1.webp");
+  background-size: cover;
+}
+
+/* header start */
+
+.header {
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+  -webkit-box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.5);
+}
+.headerchild1 {
+  height: 25px;
+  width: 100%;
+  background-color: rgba(247, 247, 247, 0.897);
+  display: flex;
+  justify-content: space-between;
+
+  font-family: "Concert One", cursive;
+  color: rgb(128, 128, 128);
+}
+.part1 {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  font-size: 13px;
+  padding-left: 30px;
+}
+.part1 a {
+  text-decoration: none;
+  color: rgb(128, 128, 128);
+}
+.downloadapp {
+  display: flex;
+  font-size: 13px;
+  gap: 10px;
+  align-items: center;
+}
+.downloadapp img {
+  margin-top: 5px;
+  height: 14px;
+}
+.part2 {
+  padding-right: 30px;
+  display: flex;
+  align-items: center;
+}
+.part2 ul {
+  display: flex;
+  font-size: 13px;
+  gap: 20px;
+}
+.part2 ul li a {
+  text-decoration: none;
+  color: rgb(128, 128, 128);
+}
+.headerchild2 {
+  height: 60px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.856);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#logo {
+  height: 40px;
+  margin-left: 20px;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+}
+.searchform{
+  display: flex;
+  align-items: center;
+}
+.search select {
+  width: 80px;
+  height: 42px;
+  background-color: rgba(255, 255, 255, 0);
+  font-size: 14px;
+  margin-right: -82px;
+  z-index: 1;
+  border: none;
+  padding-left: 4px;
+
+}
+
+.search input {
+  height: 40px;
+  background-color: #fffaf6;
+  border: 1px solid salmon;
+  width: 400px;
+  border-radius: 5px;
+  padding-left: 90px;
+}
+.search button {
+  border: none;
+  margin-left: -35px;
+  background-color: rgba(255, 255, 255, 0);
+  cursor: pointer;
+}
+.logincart {
+  display: flex;
+  align-items: center;
+  margin-right: 5%;
+}
+.logincart ul {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  list-style-type: none;
+  cursor: pointer;
+}
+.logincart ul li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logincart ul li a {
+  text-decoration: none;
+  color: #000;
+  font-family: "Architects Daughter", cursive;
+  font-weight: bolder;
+}
+/* header end */
+
+.slogan {
+  position: absolute;
+  right: 10%;
+  bottom: 70%;
+  font-family: "Architects Daughter", cursive;
+  /* font-family: 'Caveat', cursive; */
+  /* font-family: 'Courgette', cursive; */
+
+  /* font-family: 'Island Moments', cursive; */
+
+  /* font-family: 'Vujahday Script', cursive; */
+  font-weight: bolder;
+}
+.cagegoriesContainer {
+  position: absolute;
+  right: 15%;
+  bottom: 10%;
+  height: 300px;
+  width: 400px;
+
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2)),
+    url("../images/bimg/webp/bg4.webp");
+  background-size: cover;
+  border-radius: 5px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+.cagegoriesContainer h2 {
+  text-align: center;
+  font-size: 17px;
+  padding-top: 10px;
+  font-family: "Courgette", cursive;
+  color: #fff;
+}
+.cagegoriesType {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 2px solid tomato;
+  cursor: pointer;
+}
+.cagegoriesType p {
+  padding: 10px;
+  padding-left: 84px;
+  padding-right: 84px;
+  transition: 1s;
+  font-family: "Courgette", cursive;
+  font-weight: bolder;
+  color: #fff;
+}
+.cagegoriesType p:hover {
+  color: tomato;
+  transition: 0.5s;
+}
+
+.cagegories {
+  padding: 10px;
+  margin-top: 5px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: auto;
+  grid-gap: 1rem;
+  justify-items: center;
+}
+#Recipep {
+  background-color: rgba(139, 55, 55, 0.555);
+}
+
+#Foodp {
+  background-color: rgba(139, 55, 55, 0.555);
+  background-color: rgba(139, 55, 55, 0);
+}
+
+#recipeCagegories {
+}
+#foodCagegories {
+  display: none;
+}
+.catcard {
+  height: 80px;
+  width: 100px;
+  background-color: rgba(255, 236, 233, 0.616);
+  border-radius: 5px;
+  box-shadow: 0 3px 10px rgba(255, 255, 255, 0.2);
+  transition: 0.5s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 13px;
+  font-family: "Courgette", cursive;
+  cursor: pointer;
+  color: rgb(58, 58, 58);
+}
+.catcard:hover {
+  height: 95px;
+  width: 95px;
+  transition: 0.5s;
+}
+.catcard:hover p {
+  color: rgb(255, 67, 34);
+}
+
+.section1 {
+  width: 100%;
+  background-color: rgb(247, 255, 255);
+  padding-top: 40px;
+  margin-bottom: 10px;
+}
+.section1 h1 {
+  text-align: center;
+  border-bottom: 2px solid tomato;
+  font-family: sans-serif;
+  padding-bottom: 10px;
+}
+.moreproduct {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 20px;
+  border-radius: 5px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.692), rgba(0, 0, 0, 0.2)),
+    url("../images/bimg/webp/bg5.webp");
+  background-size: cover;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.281);
+  background-position: center;
+}
+.moreproduct h2 {
+  margin: 1%;
+  margin-left: 2%;
+  font-family: sans-serif;
+  color: rgb(255, 255, 255);
+}
+.moreproduct a {
+  text-decoration: none;
+  color: tomato;
+  margin-right: 2%;
+  font-size: 17px;
+  font-family: sans-serif;
+  cursor: pointer;
+  padding: 15px;
+  background-color: rgba(39, 39, 39, 0.404);
+  border-radius: 5px;
+  transition: 0.5s;
+  font-weight: bolder;
+}
+.moreproduct a:hover {
+  margin-right: 2.5%;
+  background-color: rgba(0, 0, 0, 0.623);
+  color: rgb(240, 29, 93);
+}
+
+.productcardcontainer {
+  width: 98%;
+  height: 350px;
+  /* height: 700px; */
+  background-color: rgb(254, 255, 255);
+  margin-left: 1%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: auto;
+  grid-gap: 0.5rem;
+  justify-items: center;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.11);
+  padding-bottom: 5px;
+  padding-top: 10px;
+  
+}
+.productcardcontainermore {
+  height: 100%;
+}
+.cardcontainer {
+  height: 350px;
+}
+
+.card {
+  height: 330px;
+  width: 270px;
+  position: relative;
+  border-radius: 5px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.253);
+  transition: 0.5s;
+  font-family: sans-serif;
+}
+.card:hover {
+  transition: 0.5s;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.664);
+  margin-top: 10px;
+}
+.card:hover img {
+  transition: 0.5s;
+  max-height: 200px;
+  filter: brightness(1.01);
+}
+.card:focus .pimagecontainer {
+  background-image: radial-gradient(rgb(255, 255, 255), rgb(194, 194, 194));
+  transition: 1s;
+}
+.pimagecontainer {
+  width: 100%;
+  height: 220px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid tomato;
+  background-image: radial-gradient(rgb(255, 255, 255), rgb(219, 219, 219));
+  transition: 1s;
+}
+.pimagecontainer img {
+  max-height: 190px;
+  transition: 0.5s;
+}
+.card p {
+  margin-top: 8px;
+  margin-left: 10px;
+}
+.pprice {
+  display: flex;
+}
+.cardbtn {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.cardbtn a {
+  text-decoration: none;
+  color: #000;
+  padding: 15px 53px 15px 53px;
+  background-color: tomato;
+  font-size: 17px;
+  font-weight: bold;
+  font-family: "Courgette", cursive;
+  color: white;
+}
+.cardbtn a:hover {
+  background-color: #fa9c6b;
+  padding: 16px 57px 16px 57px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.253);
+}
+#pcartbtn {
+  border-bottom-left-radius: 5px;
+}
+
+#pbuybtn {
+  border-bottom-right-radius: 5px;
+}
+
+.footer {
+  width: 100%;
+  padding-bottom: 60px;
+}
+.fpart1 {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+}
+#flogo {
+  height: 50px;
+  margin-left: 40px;
+}
+.fpart1 span {
+  border: 1px solid tomato;
+  width: 81%;
+  margin-left: 20px;
+}
+.fpart2 {
+  display: flex;
+  justify-content: space-evenly;
+  font-family: sans-serif;
+  padding: 20px;
+}
+.fpart2 span {
+  height: 350px;
+  border: 1px solid tomato;
+}
+.fpart2 a,
+p {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-size: 13px;
+}
+.fpart2 ul {
+  list-style-type: none;
+}
+.fpart2 li {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#fpart2heading {
+  font-weight: bold;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  font-family: monospace;
+  font-size: 15px;
+  word-spacing: -5px;
+  color: rgb(92, 92, 92);
+}
+.dowloadmethods {
+  display: flex;
+  justify-content: space-between;
+}
+.follow {
+  margin-top: 20px;
+  display: inline-flex;
+  align-items: center;
+}
+.follow a img {
+  height: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.downloadlinks img {
+  height: 35px;
+}
+.paymentmode img {
+  height: 24px;
+}
+.fpart3 {
+  display: flex;
+  align-items: center;
+}
+#fpart3mainp {
+  font-size: 16px;
+  color: #000;
+  font-family: sans-serif;
+  margin-left: 40px;
+}
+.fpart3 span {
+  border: 1px solid tomato;
+  width: 83%;
+  margin-left: 20px;
+}
+.fpart4 {
+  margin-top: 20px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.fpart4 p {
+  text-align: center;
+  font-size: 16px;
+  word-spacing: 14px;
+  line-height: 30px;
+  cursor: pointer;
+  font-family: sans-serif;
+  color: rgb(100, 100, 100);
+}
+.fpart4 a {
+  text-decoration: none;
+  color: rgb(100, 100, 100);
+}
+.fpart5 {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+.copyright img {
+  height: 20px;
+}
+.copyright p {
+  font-size: 16px;
+}
+.fpart5mainp {
+  margin-top: 20px;
+  margin-left: 4%;
+  margin-right: 4%;
+  text-align: center;
+  font-family: sans-serif;
+
+  font-size: 12px;
+  line-height: 20px;
+  color: rgb(53, 53, 53);
+}

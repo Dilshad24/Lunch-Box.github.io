@@ -1,0 +1,313 @@
+.main {
+  background-image: none;
+  display: inline-flex;
+  justify-content: center;
+  background-color: rgb(236, 236, 236);
+  height: 600px;
+}
+
+.sction1 {
+  width: 80%;
+  height: 400px;
+  margin-top: 115px;
+  display: inline-flex;
+  justify-content: space-between;
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.253);
+  padding: 20px;
+  transition: 0.5s;
+}
+.sction1:hover {
+  transition: 0.5;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.342);
+}
+
+.sction1child1 {
+  height: 100%;
+  width: 45%;
+  display: flex;
+  justify-content: center;
+
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.349);
+}
+.sction1child1:hover img {
+  transition: .5s;
+  /* width: 102%;
+  height: 102%; */
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.699);
+}
+.sction1child1 img {
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.24);
+  border-radius: 5px;
+  width: 100%;
+  transition: .5s;
+}
+
+.sction1child2 {
+  width: 52%;
+}
+.mameandtype {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+}
+.mameandtype img {
+  height: 20px;
+}
+.sction1child2 h1 {
+  font: 24px sans-serif;
+}
+
+.desc p {
+  margin-top: 20px;
+  margin-right: 5%;
+  font: 13px sans-serif;
+  text-align: justify;
+  color: rgb(156, 156, 156);
+}
+.desc2 {
+  margin-top: 10px;
+  border: 1px solid tomato;
+  border-radius: 5px;
+  padding: 20px;
+  padding-bottom: 10px;
+ 
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.desc2part1 {
+  padding-left: 0px;
+  padding-bottom: 0px;
+  border-bottom: 1px solid tomato;
+  font: 1em sans-serif;
+}
+
+.desc2part2 {
+  padding-right: 0px;
+  margin-bottom: 0px;
+  font: 1em sans-serif;
+}
+.desc2part2 img {
+  height: 20px;
+}
+.desc2part2child {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.imgrediants {
+  padding-top: 0px;
+}
+.imgrediants h2 {
+  font-family: sans-serif;
+}
+.ingwredianscart{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.imgrediantslist {
+  font-family: sans-serif;
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: auto;
+  grid-gap: 0.5rem;
+  align-items: center;
+}
+.addcart a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  border-radius: 4px;
+  background-color: tomato;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.171);
+  transition: 0.5s;
+  font-size: 12px;
+}
+.addcart a:hover {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  border-radius: 4px;
+  background-color: tomato;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.349);
+  transition: 0.5s;
+}
+
+.addcart {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.section3 {
+  background-color: rgb(247, 247, 247);
+  padding: 20px;
+}
+.section3heading {
+  padding-left: 20px;
+  width: calc(100% - 20px);
+  border-bottom: 1px solid tomato;
+  padding-bottom: 10px;
+  font-family: sans-serif;
+}
+.prcesslist {
+  width: calc(100% - 20px);
+  padding: 20px;
+  padding-top: 0px;
+}
+.prcesslist h1 {
+  font: 20px sans-serif;
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  color: rgb(83, 83, 83);
+}
+.prcesslist p {
+  font: 17px sans-serif;
+  color: rgb(110, 110, 110);
+}
+.prcesslist ul {
+  margin-top: 20px;
+}
+.prcesslist ul li {
+  font: 16px sans-serif;
+  color: rgba(255, 99, 71, 0.692);
+}
+
+.section1 {
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.section1 h1 {
+  margin-bottom: 20px;
+}
+
+.section2 {
+  width: 100%;
+  margin-top: 30px;
+}
+.section2child1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  gap: 20px;
+}
+#section2child1h1 {
+  color: tomato;
+}
+.section2child1 span {
+  border: 1px solid tomato;
+  width: 20%;
+}
+.section2child2 {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  font-family: sans-serif;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5%;
+  /* gap: 10px; */
+}
+.section2img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 160px;
+  transition: 0.5s;
+}
+
+.section2img img {
+  height: 100px;
+}
+.section2img p {
+  margin-top: 20px;
+  text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+ 
+  
+}
+
+@media screen and (max-width: 600px) {
+.main{
+     height: 100%;
+     padding-bottom: 20px;
+}
+.sction1 {
+    margin-top: 120px;
+    flex-direction: column;
+    height: 100%;
+    justify-content: start;
+}
+.sction1child1{
+    width: 100%;
+    height: 250px;
+    margin-bottom: 20px;
+}
+.imgrediantslist p{
+}
+.sction1child2{
+    width: 100%;
+}
+.section2child2 {
+  padding-left: 1%;
+  /* gap: 10px; */
+}
+.ingwredianscart h2{
+    font-size: 17px;
+}
+.ingwredianscart a{
+    font-size: 10px;
+}
+ .section2child1 h2 {
+    font-size: 15px;
+  }
+.imgrediants{
+    padding-right: 0px;
+}
+.prcesslist{
+    width: 90%;
+    nav-right: 0px;
+    text-align: justify;
+}
+.prcesslist h1{
+    font-size: 15px;
+}
+.prcesslist p{
+    font-size: 15px;
+}
+.section3heading h1{
+    font-size: 20px;
+}
+.prcesslist ul li {
+  font: 14px sans-serif;
+  color: rgba(255, 99, 71, 0.692);
+  margin-bottom: 10px;
+}
+.section2child2 {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    font-family: sans-serif;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5%;
+    /* gap: 10px; */
+  }
+
+}
+
