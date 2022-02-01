@@ -237,8 +237,34 @@
   text-align: center;
 }
 
-@media screen and (max-width: 600px) {
- 
+@media screen and (max-width: 1000px) {
+  .main {
+    height: 100%;
+    padding-bottom: 30px;
+  }
+.sction1 {
+  width: 80%;
+  height: 450px;
+}
+.sction1child2{
+  overflow-y: scroll;
+}
+.imgrediantslist{
+  overflow-y: scroll;
+}
+.section2child2 {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    font-family: sans-serif;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5%;
+    /* gap: 10px; */
+  }
+.section2img{
+  height: 200px;
+}
   
 }
 
